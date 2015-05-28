@@ -1,0 +1,44 @@
+Time : 22:58:29
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : UPDATE news_articles
+							SET news_category_id = :news_category_id, headline = :headline, article_text = :article_text, article_image_filename = :article_image_filename, approval_id = :approval_id
+							WHERE id = :id
+
+Time : 22:58:20
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : UPDATE news_articles
+							SET news_category_id = :news_category_id, headline = :headline, article_text = :article_text, article_image_filename = :article_image_filename, approval_id = :approval_id
+							WHERE id = :id
+
+Time : 22:56:16
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : UPDATE news_articles
+							SET news_category_id = :news_category_id, headline = :headline, article_text = :article_text, article_image_filename = :article_image_filename, approval_id = :approval_id
+							WHERE id = :id
+
+Time : 22:53:58
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : UPDATE news_articles
+							SET news_category_id = :news_category_id, headline = :headline, article_text = :article_text, article_image_filename = :article_image_filename, approval_id = :approval_id
+							WHERE id = :id
+
+Time : 22:53:46
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : UPDATE news_articles
+							SET news_category_id = :news_category_id, headline = :headline, article_text = :article_text, article_image_filename = :article_image_filename, approval_id = :approval_id
+							WHERE id = :id
+
+Time : 22:51:50
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE news_articles
+							SET news_category_id = :news_category_id, headline = :headline, article_text = :article_text, article_image_filename = :article_image_filename, approval_id = :approval_id
+							WHERE id = :id
+
+Time : 22:46:10
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE news_articles
+							SET news_category_id = :news_category_id, headline = :headline, article_text = :article_text, article_image_filename = :article_image_filename, approval_id = :approval_id
+							WHERE id = :id
+
+Time : 22:45:22
+SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty

@@ -1,0 +1,78 @@
+Time : 22:44:39
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE news_users 
+							SET firstname=:firstname, lastname=:lastname, username=:username, email=:email 
+                        	WHERE id = :userID
+
+Time : 22:37:32
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE news_users 
+							SET firstname=:firstname, lastname=:lastname, username=:username, email=:email 
+                        	WHERE id = :userID
+
+Time : 22:32:13
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE news_users 
+							SET firstname=:firstname, lastname=:lastname, username=:username, email=:email 
+                        	WHERE id = :userID
+
+Time : 22:30:56
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE news_users 
+							SET firstname=:firstname, lastname=:lastname, username=:username, email=:email 
+                        	WHERE id = :userID
+
+Time : 22:28:58
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE news_users 
+							SET firstname=:firstname, lastname=:lastname, username=:username, email=:email 
+                        	WHERE id = :userID
+
+Time : 21:36:23
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : UPDATE news_users 
+							SET user_image_filename=:user_image_filename  
+                        	WHERE id = :userID
+
+Time : 20:18:45
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : UPDATE news_users 
+							SET firstname=:firstname, lastname=:lastname, username=:username, email=:email 
+                        	WHERE id = :userID
+
+Time : 20:18:41
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : UPDATE news_users 
+							SET firstname=:firstname, lastname=:lastname, username=:username, email=:email 
+                        	WHERE id = :userID
+
+Time : 20:17:14
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : UPDATE news_users 
+							SET firstname=:firstname, lastname=:lastname, username=:username, email=:email 
+                        	WHERE id = :userID
+
+Time : 09:24:40
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'MATCH (article_text, headline) AGAINST ('lydia') AS relevance 
+										FROM ne' at line 1
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text MATCH (article_text, headline) AGAINST ('lydia') AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST ('lydia') 
+										AND approval_id > 2
+										ORDER BY relevance DESC
+
+Time : 08:46:49
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:a) AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST (:a) 
+										AND approval_id > 2
+										ORDER BY relevance DESC
+
+Time : 08:43:53
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:a) AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST (:a) 
+										AND approval_id > 2
+										ORDER BY relevance DESC

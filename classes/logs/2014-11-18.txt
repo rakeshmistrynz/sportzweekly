@@ -1,0 +1,27 @@
+Time : 09:32:45
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM tbl_users WHERE username = :username AND pwd =:pwd
+
+Time : 09:18:48
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM tbl_users WHERE username = :username AND pwd =:pwd
+
+Time : 09:18:39
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM tbl_users WHERE username = :username AND pwd =:pwd
+
+Time : 09:18:36
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM tbl_users WHERE username = :username AND pwd =:pwd
+
+Time : 09:18:07
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM tbl_users WHERE username = :username AND pwd =:pwd
+
+Time : 09:10:46
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM tbl_users WHERE username = :username AND pwd =:pwd
+
+Time : 09:10:06
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT * FROM tbl_users WHERE username = :username AND pwd =:pwd

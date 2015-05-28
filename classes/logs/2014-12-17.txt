@@ -1,0 +1,143 @@
+Time : 12:09:24
+SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+
+Time : 11:28:32
+SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+
+Time : 10:42:56
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text,
+										MATCH (article_text, headline)
+										AGAINST (:a) AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST (:a) 
+										AND approval_id > 2
+										ORDER BY relevance DESC
+
+Time : 10:42:40
+SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+
+Time : 10:40:42
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text,
+										MATCH (article_text, headline)
+										AGAINST (:a) AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST (:a) 
+										AND approval_id > 2
+										ORDER BY relevance DESC
+
+Time : 10:36:14
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\) AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_tex' at line 3
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text,
+										MATCH (article_text, headline)
+										AGAINST ($a\) AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST ($a\) 
+										AND approval_id > 2
+										ORDER BY relevance DESC
+
+Time : 10:34:23
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text' at line 3
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text,
+										MATCH (article_text, headline)
+										AGAINST () AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST () 
+										AND approval_id > 2
+										ORDER BY relevance DESC
+
+Time : 10:31:53
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text' at line 3
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text,
+										MATCH (article_text, headline)
+										AGAINST () AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST () 
+										AND approval_id > 2
+										ORDER BY relevance DESC
+
+Time : 10:30:17
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text' at line 3
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text,
+										MATCH (article_text, headline)
+										AGAINST () AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST () 
+										AND approval_id > 2
+										ORDER BY relevance DESC
+
+Time : 10:30:10
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text' at line 3
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text,
+										MATCH (article_text, headline)
+										AGAINST () AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST () 
+										AND approval_id > 2
+										ORDER BY relevance DESC
+
+Time : 10:18:04
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\"SELECT id, news_category_id, date_time_created, headline, article_text,
+						' at line 1
+Raw SQL : \"SELECT id, news_category_id, date_time_created, headline, article_text,
+										MATCH (article_text, headline)
+										AGAINST ($a) AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST ($a) 
+										AND approval_id > 2
+										ORDER BY relevance DESC\", null, PDO::FETCH_NUM
+
+Time : 10:15:34
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text' at line 3
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text,
+										MATCH (article_text, headline)
+										AGAINST () AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST () 
+										AND approval_id > 2
+										ORDER BY relevance DESC", null, PDO::FETCH_NUM
+
+Time : 10:14:15
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '', null, PDO::FETCH_NUM' at line 7
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text,
+										MATCH (article_text, headline)
+										AGAINST ($a) AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST ($a) 
+										AND approval_id > 2
+										ORDER BY relevance DESC', null, PDO::FETCH_NUM
+
+Time : 10:13:13
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '", null, PDO::FETCH_NUM' at line 7
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text,
+										MATCH (article_text, headline)
+										AGAINST ($a) AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST ($a) 
+										AND approval_id > 2
+										ORDER BY relevance DESC", null, PDO::FETCH_NUM
+
+Time : 10:12:04
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text' at line 3
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text,
+										MATCH (article_text, headline)
+										AGAINST () AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST () 
+										AND approval_id > 2
+										ORDER BY relevance DESC", null, PDO::FETCH_NUM

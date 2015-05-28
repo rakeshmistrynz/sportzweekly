@@ -1,0 +1,41 @@
+Time : 22:42:23
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT news_users.username, news_users.user_image_filename, news_comments.comment_text
+									FROM news_comments
+									LEFT JOIN news_users
+									ON news_users.id = news_comments.user_id 
+									WHERE news_comments.article_id = :29
+									ORDER BY news_comments.date_time_created DESC
+
+Time : 21:57:33
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'news_article.id' in 'group statement'
+Raw SQL : SELECT COUNT(news_comments.comment_text) AS commentcount
+										FROM news_articles
+										LEFT JOIN news_comments
+										ON news_comments.article_id = news_articles.id
+										WHERE news_articles.id =:artid
+										GROUP BY news_article.id DESC
+
+Time : 11:01:50
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id=1' at line 1
+Raw SQL : SELECT id, news_category_id, headline, article_text, date_time_created WHERE id=1
+
+Time : 11:00:59
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id=?' at line 1
+Raw SQL : SELECT id, news_category_id, headline, article_text, date_time_created WHERE id=:artid
+
+Time : 11:00:02
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id=?' at line 1
+Raw SQL : SELECT id, news_category_id, headline, article_text, date_time_created WHERE id=:artid
+
+Time : 10:55:45
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id=?' at line 1
+Raw SQL : SELECT id, news_category_id, headline, article_text, date_time_created WHERE id=:artid
+
+Time : 10:52:38
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id=?' at line 1
+Raw SQL : SELECT id, news_category_id, headline, article_text, date_time_created WHERE id=:artid
+
+Time : 10:51:16
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'article_id' in 'field list'
+Raw SQL : SELECT article_id, news_category_id, headline, article_text, date_time_created, article_image_filename FROM news_articles WHERE news_category_id=:id AND approval_id=4

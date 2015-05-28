@@ -1,0 +1,29 @@
+Time : 22:23:08
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : INSERT INTO tbl_pages(title, description,headline,content1,content2,menu_name) 
+                        VALUES(:title, :description, :headline, :content1, :content2, :menu_name)
+
+Time : 22:17:08
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : INSERT INTO tbl_pages(title, description,headline,content1,content2,menu_name) 
+                        VALUES(:title, :description, :headline, :content1, :content2, :menu_name)
+
+Time : 22:13:45
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : INSERT INTO tbl_pages(title, description,headline,content1,content2,menu_name) 
+                        VALUES(:title, :description, :headline, :content1, :content2, :menu_name)
+
+Time : 22:11:39
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : INSERT INTO tbl_pages(title, description,headline,content1,content2,menu_name) 
+                        VALUES(:title, :description, :headline, :content1, :content2, :menu_name)
+
+Time : 22:10:48
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO tbl_pages(title, description,headline,content1,content2,menu_name) 
+                        VALUES(:title, :description, :headline, :content1, :content2, :content2, :menu_name)
+
+Time : 22:10:03
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'menuName' in 'field list'
+Raw SQL : INSERT INTO tbl_pages(title, description, menuName,headline,content1,content2,menu_name) 
+                        VALUES(:title, :description, :headline, :content1, :content2, :content2, :menu_name)

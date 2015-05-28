@@ -1,0 +1,31 @@
+Time : 21:56:02
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT pwd FROM tbl_users WHERE username = :username 
+
+Time : 21:53:57
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT pwd FROM tbl_users WHERE username = :username 
+
+Time : 21:11:48
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'divesh' in 'where clause'
+Raw SQL : SELECT pwd FROM tbl_users WHERE username = divesh 
+
+Time : 02:43:45
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+Raw SQL : SELECT * FROM tbl_users WHERE :username :pwd
+
+Time : 02:43:41
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+Raw SQL : SELECT * FROM tbl_users WHERE :username :pwd
+
+Time : 02:42:47
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' ?' at line 1
+Raw SQL : SELECT * FROM tbl_users WHERE :username, :pwd
+
+Time : 02:31:22
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT :username, :pwd FROM tbl_users
+
+Time : 02:21:18
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT :username, :pwd FROM tbl_users

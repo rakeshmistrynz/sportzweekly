@@ -1,0 +1,57 @@
+Time : 21:43:56
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY DESC' at line 2
+Raw SQL : INSERT INTO tbl_pages(title, description, headline, content1, content2, menu_name) 
+                        VALUES(:title, :description, :headline, :content1, :content2, :menu_name) ORDER BY DESC
+
+Time : 21:43:24
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY id' at line 2
+Raw SQL : INSERT INTO tbl_pages(title, description, headline, content1, content2, menu_name) 
+                        VALUES(:title, :description, :headline, :content1, :content2, :menu_name) ORDER BY id
+
+Time : 20:35:45
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : UPDATE tbl_pages 
+							SET title=:title, description=:description, headline=:headline, content1=:content1, content2=:content2, menu_name=:menu_name 
+                        	WHERE id=:id
+
+Time : 18:25:54
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id=?' at line 3
+Raw SQL : UPDATE tbl_pages 
+							SET title=:title, description=:description, headline=:headline, content1=:content1, content2=:content2, menu_name=:menu_name, 
+                        	WHERE id=:id
+
+Time : 18:24:16
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id=?' at line 3
+Raw SQL : UPDATE tbl_pages 
+							SET title=:title, description=:description, headline=:headline, content1=:content1, content2=:content2, menu_name=:content2, 
+                        	WHERE id=:id
+
+Time : 18:22:21
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id=?' at line 3
+Raw SQL : UPDATE tbl_pages 
+							SET title=:title, description=:description, headline=:headline, content1=:content1, content2=:content2, menu_name=:content2, 
+                        	WHERE id=:id
+
+Time : 18:22:18
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id=?' at line 3
+Raw SQL : UPDATE tbl_pages 
+							SET title=:title, description=:description, headline=:headline, content1=:content1, content2=:content2, menu_name=:content2, 
+                        	WHERE id=:id
+
+Time : 18:20:49
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id=?' at line 3
+Raw SQL : UPDATE tbl_pages 
+							SET title=:title, description=:description, headline=:headline, content1=:content1, content2=:content2, menu_name=:content2, 
+                        	WHERE id=:id
+
+Time : 18:20:46
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id=?' at line 3
+Raw SQL : UPDATE tbl_pages 
+							SET title=:title, description=:description, headline=:headline, content1=:content1, content2=:content2, menu_name=:content2, 
+                        	WHERE id=:id
+
+Time : 18:18:27
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id=?' at line 3
+Raw SQL : UPDATE tbl_pages 
+							SET title=:title, description=:description, headline=:headline, content1=:content1, content2=:content2, menu_name=:content2, 
+                        	WHERE id=:id

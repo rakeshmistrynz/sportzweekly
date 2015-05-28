@@ -1,0 +1,327 @@
+Time : 20:17:59
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO news_comments(article_id, comment_text, user_id) 
+                         	VALUES(:artid, :comment_text, :userid)
+
+Time : 19:30:18
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO news_comments(article_id, comment_text, user_id) 
+                        	VALUES(:artid, :comment_text, :userid)
+
+Time : 19:20:58
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO news_comments(article_id, comment_text, user_id) 
+                        	VALUES(:artid, :comment_text, :userid)
+
+Time : 19:20:16
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO news_comments(article_id, comment_text, user_id) 
+                        	VALUES(:artid, :comment_text, :userid)
+
+Time : 18:05:18
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO news_comments(article_id, comment_text, user_id) 
+                        	VALUES(:artid, :comment_text, :userid)
+
+Time : 12:47:46
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:a) AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST (:a) 
+										AND approval_id > 2
+										ORDER BY relevance DESC
+
+Time : 12:47:40
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:a) AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST (:a) 
+										AND approval_id > 2
+										ORDER BY relevance DESC
+
+Time : 12:47:21
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:a) AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST (:a) 
+										AND approval_id > 2
+										ORDER BY relevance DESC
+
+Time : 12:45:49
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:a) AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST (:a) 
+										AND approval_id > 2
+										ORDER BY relevance DESC
+
+Time : 11:51:54
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 10:27:12
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sportsfan' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 10:09:26
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'steve' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 02:07:38
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:a) AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST (:a) 
+										AND approval_id > 2
+										ORDER BY relevance DESC
+
+Time : 02:06:52
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:a) AS relevance 
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST (:a) 
+										AND approval_id > 2
+										ORDER BY relevance DESC
+
+Time : 01:58:38
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:a) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (:a) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 01:24:06
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:searchterm) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (:searchterm) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 01:12:19
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:searchterm) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (:searchterm) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 01:08:09
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:searchterm) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (:searchterm) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 01:08:02
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:searchterm) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (:searchterm) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 00:59:05
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:searchterm) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (:searchterm) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 00:57:03
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:searchterm) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (:searchterm) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 00:53:58
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:searchterm) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (:searchterm) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 00:53:39
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:searchterm) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (:searchterm) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 00:49:29
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:searchterm) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (:searchterm) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 00:46:36
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:searchterm) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (:searchterm) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 00:46:31
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:searchterm) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (:searchterm) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 00:44:28
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:searchterm) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (:searchterm) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 00:38:01
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:searchterm) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (:searchterm) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 00:37:27
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' ?) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) ' at line 1
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:searchterm, :searchterm) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (:searchterm, :searchterm) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 00:35:14
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:searchterm) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (:searchterm) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 00:34:41
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:searchterm) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (:searchterm) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 00:33:56
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:searchterm) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (:searchterm) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 00:29:40
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Lydia' in 'field list'
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (Lydia) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (Lydia) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 00:29:34
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lydia' in 'field list'
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (lydia) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (lydia) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 00:29:10
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lydia' in 'field list'
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (lydia) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (lydia) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 00:26:02
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lydia' in 'field list'
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (lydia) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (lydia) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 00:21:33
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=?) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) ' at line 1
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST ('string'=:searchterm) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST ('string'=:searchterm) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 00:20:44
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=?) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) ' at line 1
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (=:searchterm) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (=:searchterm) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 00:18:29
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:searchterm) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (:searchterm) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 00:18:20
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:searchterm) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (:searchterm) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 00:17:07
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (:searchterm) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST (:searchterm) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 00:11:04
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lydia AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline' at line 1
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST lydia AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST lydia 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 00:10:45
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lydia' in 'field list'
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (lydia) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST(lydia) 
+			AND approval_id > 2
+			ORDER BY relevance DESC

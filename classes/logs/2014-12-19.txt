@@ -1,0 +1,79 @@
+Time : 17:33:45
+SQLSTATE[HY000]: General error: 1191 Can't find FULLTEXT index matching the column list
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text,
+								MATCH (article_text, headline)
+								AGAINST ('cricket') AS relevance 
+									FROM news_articles
+									WHERE MATCH (article_text, headline) AGAINST ('cricket') 
+									AND approval_id > 2
+							ORDER BY relevance DESC
+
+Time : 17:32:53
+SQLSTATE[HY000]: General error: 1191 Can't find FULLTEXT index matching the column list
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text,
+								MATCH (article_text, headline)
+								AGAINST ('cricket') AS relevance 
+									FROM news_articles
+									WHERE MATCH (article_text, headline) AGAINST ('cricket') 
+									AND approval_id > 2
+							ORDER BY relevance DESC
+
+Time : 17:29:06
+SQLSTATE[HY000]: General error: 1191 Can't find FULLTEXT index matching the column list
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text,
+								MATCH (article_text, headline)
+								AGAINST ('cricket') AS relevance 
+									FROM news_articles
+									WHERE MATCH (article_text, headline) AGAINST ('cricket') 
+									AND approval_id > 2
+							ORDER BY relevance DESC
+
+Time : 17:29:03
+SQLSTATE[HY000]: General error: 1191 Can't find FULLTEXT index matching the column list
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text,
+								MATCH (article_text, headline)
+								AGAINST ('cricket') AS relevance 
+									FROM news_articles
+									WHERE MATCH (article_text, headline) AGAINST ('cricket') 
+									AND approval_id > 2
+							ORDER BY relevance DESC
+
+Time : 17:28:41
+SQLSTATE[HY000]: General error: 1191 Can't find FULLTEXT index matching the column list
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text,
+								MATCH (article_text, headline)
+								AGAINST ('cricket') AS relevance 
+									FROM news_articles
+									WHERE MATCH (article_text, headline) AGAINST ('cricket') 
+									AND approval_id > 2
+							ORDER BY relevance DESC
+
+Time : 17:28:11
+SQLSTATE[HY000]: General error: 1191 Can't find FULLTEXT index matching the column list
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text,
+								MATCH (article_text, headline)
+								AGAINST ('cricket') AS relevance 
+									FROM news_articles
+									WHERE MATCH (article_text, headline) AGAINST ('cricket') 
+									AND approval_id > 2
+							ORDER BY relevance DESC
+
+Time : 17:23:28
+SQLSTATE[HY000]: General error: 1191 Can't find FULLTEXT index matching the column list
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text,
+								MATCH (article_text, headline)
+								AGAINST ('golf') AS relevance 
+									FROM news_articles
+									WHERE MATCH (article_text, headline) AGAINST ('golf') 
+									AND approval_id > 2
+							ORDER BY relevance DESC
+
+Time : 17:21:46
+SQLSTATE[HY000]: General error: 1191 Can't find FULLTEXT index matching the column list
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text,
+								MATCH (article_text, headline)
+								AGAINST ('cricket') AS relevance 
+									FROM news_articles
+									WHERE MATCH (article_text, headline) AGAINST ('cricket') 
+									AND approval_id > 2
+							ORDER BY relevance DESC

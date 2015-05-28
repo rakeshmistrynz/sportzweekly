@@ -1,0 +1,74 @@
+Time : 18:54:16
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : UPDATE news_users 
+							SET firstname=:firstname, lastname=:lastname, username=:username, email=:email 
+                        	WHERE id = :userID
+
+Time : 18:54:11
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : UPDATE news_users 
+							SET firstname=:firstname, lastname=:lastname, username=:username, email=:email 
+                        	WHERE id = :userID
+
+Time : 18:52:45
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : UPDATE news_users 
+							SET firstname=:firstname, lastname=:lastname, username=:username, email=:email 
+                        	WHERE id = :userID
+
+Time : 18:52:26
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : UPDATE news_users 
+							SET firstname=:firstname, lastname=:lastname, username=:username, email=:email 
+                        	WHERE id = :userID
+
+Time : 18:51:26
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : UPDATE news_users 
+							SET firstname=:firstname, lastname=:lastname, username=:username, email=:email 
+                        	WHERE id = :userID
+
+Time : 18:51:12
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : UPDATE news_users 
+							SET firstname=:firstname, lastname=:lastname, username=:username, email=:email 
+                        	WHERE id = :userID
+
+Time : 18:51:03
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : UPDATE news_users 
+							SET firstname=:firstname, lastname=:lastname, username=:username, email=:email 
+                        	WHERE id = :userID
+
+Time : 18:49:18
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : UPDATE news_users 
+							SET firstname=:firstname, lastname=:lastname, username=:username, email=:email 
+                        	WHERE id = :userID
+
+Time : 18:44:42
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : UPDATE news_users 
+							SET firstname=:firstname, lastname=:lastname, username=:username, email=:email 
+                        	WHERE id = :userID
+
+Time : 18:40:52
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : UPDATE news_users 
+							SET firstname=:firstname, lastname=:lastname, username=:username, email=:email 
+                        	WHERE id = :userID
+
+Time : 15:55:40
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 15:53:58
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 15:49:10
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)

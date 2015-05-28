@@ -1,0 +1,24 @@
+Time : 23:41:41
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' ?' at line 1
+Raw SQL : SELECT * FROM tbl_users WHERE :username, :pwd
+
+Time : 23:41:06
+SQLSTATE[21000]: Cardinality violation: 1241 Operand should contain 1 column(s)
+Raw SQL : SELECT * FROM tbl_users WHERE(:username, :pwd)
+
+Time : 23:38:23
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' ?' at line 1
+Raw SQL : SELECT * FROM tbl_users WHERE :username, :pwd
+
+Time : 23:38:19
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' ?' at line 1
+Raw SQL : SELECT * FROM tbl_users WHERE :username, :pwd
+
+Time : 23:38:02
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' ?)' at line 1
+Raw SQL : SELECT * FROM tbl_users WHERE :username, :pwd)
+
+Time : 23:31:08
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'VALUES(?, ?)' at line 2
+Raw SQL : SELECT tbl_pages(username, pwd) 
+                        VALUES(:username, :pwd)

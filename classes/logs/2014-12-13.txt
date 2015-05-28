@@ -1,0 +1,270 @@
+Time : 23:58:43
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lydia' in 'field list'
+Raw SQL : SELECT id, news_category_id, date_time_created, headline, article_text, MATCH (article_text, headline) AGAINST (lydia) AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST(lydia) 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 23:31:27
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'MATCH (article_text, headline) AGAINST ('lydia') AS relevance 
+			FROM news_arti' at line 1
+Raw SQL : SELECT id, date_time_created, news_category_id, article_text MATCH (article_text, headline) AGAINST ('lydia') AS relevance 
+			FROM news_articles
+			WHERE MATCH (article_text, headline) AGAINST('lydia') 
+			AND approval_id > 2
+			ORDER BY relevance DESC
+
+Time : 23:26:35
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'MATCH (article_text, headline) AGAINST('lydia') 
+										AS relevance
+								' at line 1
+Raw SQL : SELECT id, date_time_created, news_category_id, article_text, headline MATCH (article_text, headline) AGAINST('lydia') 
+										AS relevance
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST('lydia') AND approval_id > 2
+										ORDER BY relevance DESC
+
+Time : 23:26:30
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'MATCH (article_text, headline) AGAINST('lydia') 
+										AS relevance
+								' at line 1
+Raw SQL : SELECT id, date_time_created, news_category_id, article_text, headline MATCH (article_text, headline) AGAINST('lydia') 
+										AS relevance
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST('lydia') AND approval_id > 2
+										ORDER BY relevance DESC
+
+Time : 23:25:49
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'MATCH (article_text, headline) AGAINST('lydia') 
+										AS relevance
+								' at line 1
+Raw SQL : SELECT id, date_time_created, news_category_id, article_text, headline MATCH (article_text, headline) AGAINST('lydia') 
+										AS relevance
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST
+										('lydia') AND approval_id > 2
+										ORDER BY relevance DESC
+
+Time : 23:25:44
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'MATCH (article_text, headline) AGAINST('lydia') 
+										AS relevance
+								' at line 1
+Raw SQL : SELECT id, date_time_created, news_category_id, article_text, headline MATCH (article_text, headline) AGAINST('lydia') 
+										AS relevance
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST
+										('lydia') AND approval_id > 2
+										ORDER BY relevance DESC
+
+Time : 23:22:15
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'MATCH (article_text, headline) AGAINST('lydia') 
+										AS relevance
+								' at line 1
+Raw SQL : SELECT id, date_time_created, news_category_id, article_text, headline MATCH (article_text, headline) AGAINST('lydia') 
+										AS relevance
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST
+										('lydia')
+										AND approval_id > 2
+										ORDER BY relevance DESC
+
+Time : 23:22:11
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'MATCH (article_text, headline) AGAINST('lydia') 
+										AS relevance
+								' at line 1
+Raw SQL : SELECT id, date_time_created, news_category_id, article_text, headline MATCH (article_text, headline) AGAINST('lydia') 
+										AS relevance
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST
+										('lydia')
+										AND approval_id > 2
+										ORDER BY relevance DESC
+
+Time : 23:21:54
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'MATCH (article_text, headline) AGAINST('lydia') 
+										AS relevance
+								' at line 1
+Raw SQL : SELECT id, date_time_created, news_category_id, article_text, headline MATCH (article_text, headline) AGAINST('lydia') 
+										AS relevance
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST
+										('lydia')
+										AND approval_id>2
+										ORDER BY relevance DESC
+
+Time : 23:21:47
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'MATCH (article_text, headline) AGAINST('lydia') 
+										AS relevance
+								' at line 1
+Raw SQL : SELECT id, date_time_created, news_category_id, article_text, headline MATCH (article_text, headline) AGAINST('lydia') 
+										AS relevance
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST
+										('lydia')
+										AND (approval_id>2)
+										ORDER BY relevance DESC
+
+Time : 23:21:44
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'MATCH (article_text, headline) AGAINST('lydia') 
+										AS relevance
+								' at line 1
+Raw SQL : SELECT id, date_time_created, news_category_id, article_text, headline MATCH (article_text, headline) AGAINST('lydia') 
+										AS relevance
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST
+										('lydia')
+										AND (approval_id>2)
+										ORDER BY relevance DESC
+
+Time : 23:20:54
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'MATCH (article_text, headline) AGAINST('lydia') 
+										AS relevance
+								' at line 1
+Raw SQL : SELECT id, date_time_created, news_category_id, article_text, headline MATCH (article_text, headline) AGAINST('lydia') 
+										AS relevance
+										FROM news_articles
+										WHERE MATCH (article_text, headline) AGAINST
+										('lydia')
+										AND (approval_id>2)
+										ORDER BY relevance DESC
+
+Time : 21:27:14
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 21:26:02
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 20:36:13
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 20:31:50
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 20:30:33
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 20:30:18
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 20:25:37
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 20:22:25
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 20:18:59
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 20:18:36
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 20:18:33
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 20:14:33
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 20:13:37
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 20:12:35
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 20:12:24
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 20:10:55
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 20:10:42
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 20:10:36
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 20:08:51
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 20:07:07
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 20:06:50
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 20:05:46
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 20:04:13
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 20:03:42
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 20:02:22
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 20:00:39
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 19:59:36
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
+
+Time : 19:21:10
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'cricketmad' for key 'username'
+Raw SQL : INSERT INTO news_users(firstname, lastname, username, userpassword, email) 
+                        VALUES(:firstname, :lastname, :username, :userpassword, :email)
