@@ -1,4 +1,7 @@
-class/settings.ini.php
+classes/settings.ini.php
+classes/ImageManipulator.php
+classes/pdo.class.php
+classes/log.class.php
 public_html/assets/images
 public_html/assets/styles/Font-Awesome-master
 public_html/assets/styles/fonts
