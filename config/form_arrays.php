@@ -1,5 +1,10 @@
 <?php 
 
+/**
+ * @author Rakesh Mistry
+ * Form Array to produce form HTML.
+ */
+
 require '../config/config.php';
 
 require CLASS_PATH."pdo.class.php";

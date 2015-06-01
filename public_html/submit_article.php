@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * @author Rakesh Mistry
+ * Render submit article page and process any new articles submitted.
+ */
 session_start();
 
 //Check if user logged in
@@ -34,11 +38,12 @@ $mypdo = new mypdocrud();
 	//Submit Article code
 //**********************************************************//
 
-//1. Check if image and article submitted together
-//2.Check fields entered
-//3. Check if images
-//4. If fields entered correctly ie no script tags then enter into DB
-
+/**
+ * 1. Check if image and article submitted together
+ * 2. Check fields entered
+ * 3. Check if images
+ * 4. If fields entered correctly ie no script tags then enter into DB
+ */
 if($_POST && $_FILES['submit_article']['name']){
 
 	$thefile = new imageupload($_FILES['submit_article'],$article_image_dir);

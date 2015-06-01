@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @author Rakesh Mistry
+ * Renders Edit article page, including form for editing articles 
+ */
+
 session_start();
 
 //Check if user logged in
@@ -22,12 +27,16 @@ require CLASS_PATH."html.class.php";
 	//Preparation
 //**********************************************************//
 
+//Instantiate database object
 $article_info = new mypdocrud();
 
+//Generate an array of sports categories for form from database
 $cat_list = $article_info->get_category($cat_query);
 
+//Generate HTML drop down list
 $options_list = $article_info->make_options_list($cat_list);
 
+//Array to generate HTML form. 
 $update_article_form = [
 
 	'enctype_open'=>[
@@ -125,7 +134,9 @@ $update_article_form = [
 
 ];
 
-
+/**
+ * Make sure article id is set for article being edited.
+ */
 if(isset($_GET['article_id']) && is_numeric($_GET['article_id'])){
             
     $artid = $_GET['article_id'];
@@ -139,22 +150,38 @@ if(isset($_GET['article_id']) && is_numeric($_GET['article_id'])){
             
 };
 
+/**
+ * @var $full_article description Get information about the article from the database to populate form fields
+ */
 $full_article = $article_info->get_sports_page_article_info($artid, $dbQuery_get_article_info);
 
 $html = new makeHTML();
 
+//Create the Form HTML
 $add_article = new makeform($update_article_form);
 
+//Filter all the input from the database with the article info
 $add_article->filter_everything($full_article[0]);
 
 $db = new db();
 
+//**********************************************************//
+	//Edit Article Code 
+//**********************************************************//
 
+/**
+ *1. Check if image and article submitted together
+ *2. Check if images. 
+ *3. Check fields entered
+ *4. If fields entered correctly and file is an image then update article in DB 
+ */
+
+//1.
 if($_POST){
 
-	//Step 1 - Check the file is an image
 	$filecheck = true;
 
+	//2.
 	if($_FILES['update_article']['name']){
 
 		$thefile = new imageupload($_FILES['update_article'],$article_image_dir);
@@ -173,10 +200,10 @@ if($_POST){
 		}
 	}
 
-	//Step 2 - Check fields are entered and valid
+	//3.
 	$checkfields = $add_article->check_fields_entered('update_article');
 
-	//Step 3 - Enter into the Database
+	//4.
 	if($checkfields && $filecheck){
 
 		if($add_article->filtered_array['approval_id']==4){

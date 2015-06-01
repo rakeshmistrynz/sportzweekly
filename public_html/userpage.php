@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * @author Rakesh Mistry
+ * Render user land page, after users has logged in. 
+ */
 session_start();
 
 if(!$_SESSION['loggedIn']){

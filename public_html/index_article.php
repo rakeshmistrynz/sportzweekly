@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * @author Rakesh Mistry
+ * Render full article page
+ */
 session_start();
 
 //**********************************************************//

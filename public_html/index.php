@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * @author Rakesh Mistry
+ * Render Index Page
+ */
 session_start();
 
 //**********************************************************//

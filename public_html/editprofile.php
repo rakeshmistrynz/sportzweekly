@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * @author Rakesh Mistry
+ * Renders Edit profile page, including form for editing user profile
+ */
 session_start();
 
 //Check if user logged in

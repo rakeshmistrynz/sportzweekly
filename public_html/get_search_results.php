@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * @author Rakesh Mistry
+ * Process search input and return JS object (Ajax)
+ */
 session_start();
 
 //**********************************************************//
@@ -28,11 +32,9 @@ $search = new makeform($searchform);
 $mypdo = new mypdocrud(); 
 
 /**
- * 1.Check if comment posted
- * 2. Filter the comment.
- * 3. Put the comment back into the form if it can not be added, ie picks up a sharp bracket. 
- * 4. If passes through filter then put the comments, into the comments table with the article id and user id. 
- * 
+ * 1. Check search field entered
+ * 2. Filter search input
+ * 3. Return JSON array (Ajax) 
  */
 
 if($_POST){

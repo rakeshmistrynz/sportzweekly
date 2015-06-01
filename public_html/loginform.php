@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * @author Rakesh Mistry
+ * Render and process forms for logging in and registering with Sportzweekly.
+ */
 session_start();
 
 //**********************************************************//
