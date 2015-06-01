@@ -1,5 +1,5 @@
 classes/settings.ini.php
-classes/ImageManipulator.php
+classes/ImageManipulator.class.php
 classes/pdo.class.php
 classes/log.class.php
 public_html/assets/images
